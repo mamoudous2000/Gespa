@@ -1,0 +1,39 @@
+    # PHP Secrutiy Scanner
+    # This program is distributed under the terms and conditions of the GPL
+    # See the README and LICENSE files for details
+
+    # --------------------------------------------------------
+    # $Id: config_inc.php.sample,v 1.16 2005/04/29 13:24:10 vboctor Exp $
+    # --------------------------------------------------------
+
+    # This sample file describes sample usage of PHP security scanner tool
+
+Make sure you installed the package: read INSTALL for thorough explanation.
+
+
+------------------------------------------------
+1. USING bin/security_scan.php  -> the scanner ;)
+-------------------------------------------------
+The synax is:
+security_scan.php <directory/file you want to scan>  <label of the search>
+
+e.g. If you want to scan /var/www/htdocs/ directory
+security_scan.php /var/www/htdocs/ my_htdocs_label
+
+`my_htdocs_label` is just a regular string for reference. Name it as you see appropriate.
+Once the search has finished you can see the web interface to display the results.
+
+--------------------------
+2. USING the web interface
+--------------------------
+Just run the interface/index.php in your browser. A drop down menu will display all
+
+searches made so far. They are ordered by time (the latest being first). Just click on
+
+View results button to see the results.
+
+-------------------------------------------------------------------------------------------
+3. USING bin/security_update.php -> the tool that keeps you up-to-date with security issues
+-------------------------------------------------------------------------------------------
+The synax is:
+security_update.php update

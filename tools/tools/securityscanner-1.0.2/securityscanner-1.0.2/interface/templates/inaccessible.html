@@ -1,0 +1,62 @@
+{* if any inaccessible file/directories or empty files *}
+{if $inaccessible}
+
+    <table border="1" cellpadding="5" cellspacing="0" width="95%" align="center">
+    <caption>System Message overview</caption>
+    <tr>
+        <td valign="top">
+            <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tr>
+                <th>Directories not accessible</th>
+            </tr>
+                {if isset($inaccessible.dirs.inaccessible)}
+                    {foreach from=$inaccessible.dirs.inaccessible item=dir}
+                    <tr>
+                        <td><p>{$dir}</p></td>
+                    </tr>
+                    {/foreach}
+                {else}
+                <tr>
+                    <td><p>All directories are accessible</p></td>
+                </tr>
+                {/if}
+            </table>
+        </td>
+        <td valign="top">
+            <table border="0" cellpadding="5" cellspacing="0" width="100%">
+            <tr>
+                <th>Files not accessible</th>
+            </tr>
+                {if isset($inaccessible.files.inaccessible)}
+                    {foreach from=$inaccessible.files.inaccessible item=file}
+                    <tr>
+                        <td><p>{$file}</p></td>
+                    </tr>
+                    {/foreach}
+                {else}
+                <tr>
+                    <td><p>All files are accessible</p></td>
+                </tr>
+                {/if}
+            <tr>
+                <th>Empty files</th>
+            </tr>
+                {if isset($inaccessible.files.empty)}
+                    {foreach from=$inaccessible.files.empty item=file}
+                    <tr>
+                        <td><p>{$file}</p></td>
+                    </tr>
+                    {/foreach}
+                {else}
+                <tr>
+                    <td><p>No empty files</p></td>
+                </tr>
+                {/if}
+            </table>
+        </td>
+    </tr>
+    </table>
+    </br>
+{else}
+<br />
+{/if}

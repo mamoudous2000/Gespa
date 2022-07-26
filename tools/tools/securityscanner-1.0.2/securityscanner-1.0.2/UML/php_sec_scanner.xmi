@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI xmlns:UML="http://schema.omg.org/spec/UML/1.3" verified="false" timestamp="2005-06-13T11:29:50" xmi.version="1.2" >
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://uml.sf.net</XMI.exporter>
+   <XMI.exporterVersion>1.4</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name="UML" href="UML.xml" xmi.version="1.3" />
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" >
+   <UML:Namespace.ownedElement/>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello" >
+  <docsettings viewid="168" documentation="" uniqueid="297" />
+  <diagrams>
+   <diagram snapgrid="0" showattsig="1" fillcolor="#ffffc0" linewidth="0" zoom="100" showgrid="0" showopsig="1" usefillcolor="1" snapx="10" canvaswidth="1006" snapy="10" showatts="1" xmi.id="3" documentation="" type="405" showops="1" showpackage="0" name="[act]base" localid="900000" showstereotype="0" showscope="1" snapcsgrid="0" font="helvetica,12,-1,0,50,0,0,0,0,0" linecolor="#ff0000" canvasheight="812" >
+    <widgets>
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="399" linecolour="none" y="80" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="4" documentation="" activitytype="0" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="105" activityname="check...dir/file" usesdiagramusefillcolour="0" x="352" linecolour="#ff0000" y="118" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="5" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="397" linecolour="none" y="183" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="6" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="321" linecolour="none" y="187" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="8" documentation="" activitytype="2" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="57" usesdiagramusefillcolour="1" x="341" linecolour="none" y="169" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="10" text="neither" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="142" activityname="check if accessible" usesdiagramusefillcolour="0" x="336" linecolour="#ff0000" y="248" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="11" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="92" usesdiagramusefillcolour="1" x="412" linecolour="none" y="209" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="14" text="file/directory" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="400" linecolour="none" y="315" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="15" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="26" usesdiagramusefillcolour="1" x="364" linecolour="none" y="297" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="18" text="no" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="320" linecolour="none" y="320" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="20" documentation="" activitytype="2" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="32" usesdiagramusefillcolour="1" x="415" linecolour="none" y="328" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="24" text="yes" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="40" activityname="run" usesdiagramusefillcolour="0" x="695" linecolour="#ff0000" y="580" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="38" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="43" usesdiagramusefillcolour="1" x="18" linecolour="none" y="15" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="41" text="Start" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="49" usesdiagramusefillcolour="1" x="23" linecolour="none" y="602" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="45" text="Input:" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="249" usesdiagramusefillcolour="1" x="23" linecolour="none" y="772" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="46" text="See: [act] run; [act] analyze results" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="159" usesdiagramusefillcolour="1" x="86" linecolour="none" y="654" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="116" text="Second: Search label" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="273" usesdiagramusefillcolour="1" x="86" linecolour="none" y="626" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="117" text="First argument: directory/file to search" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="136" usesdiagramusefillcolour="1" x="199" linecolour="none" y="56" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="125" text="security_scan.php" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="40" activityname="" usesdiagramusefillcolour="1" x="390" linecolour="none" y="360" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="4" usefillcolor="1" isinstance="0" xmi.id="129" documentation="" activitytype="4" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="68" activityname="is empty" usesdiagramusefillcolour="0" x="540" linecolour="#ff0000" y="348" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="133" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="25" usesdiagramusefillcolour="1" x="379" linecolour="none" y="383" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="134" text="dir" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="28" usesdiagramusefillcolour="1" x="490" linecolour="none" y="364" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="135" text="file" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="565" linecolour="none" y="434" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="137" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="570" linecolour="none" y="494" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="138" documentation="" activitytype="2" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="26" usesdiagramusefillcolour="1" x="499" linecolour="none" y="417" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="139" text="no" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="32" usesdiagramusefillcolour="1" x="537" linecolour="none" y="468" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="140" text="yes" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="101" activityname="validate label" usesdiagramusefillcolour="1" x="361" linecolour="none" y="429" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="141" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="402" linecolour="none" y="535" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="142" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="309" linecolour="none" y="540" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="143" documentation="" activitytype="2" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="25" usesdiagramusefillcolour="1" x="424" linecolour="none" y="518" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="144" text="ok" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="52" usesdiagramusefillcolour="1" x="328" linecolour="none" y="518" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="145" text="not ok" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <boxwidget usesdiagramfillcolour="1" width="255" usesdiagramusefillcolour="1" x="622" linecolour="none" y="342" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="286" usefillcolor="1" isinstance="0" xmi.id="147" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="140" usesdiagramusefillcolour="1" x="624" linecolour="none" y="392" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="148" text="fs_scan_class.php" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="133" activityname="prepare_patterns" usesdiagramusefillcolour="1" x="647" linecolour="none" y="531" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="149" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <boxwidget usesdiagramfillcolour="1" width="427" usesdiagramusefillcolour="1" x="196" linecolour="none" y="55" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="572" usefillcolor="1" isinstance="0" xmi.id="151" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="61" usesdiagramusefillcolour="1" x="23" linecolour="none" y="695" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="175" text="Output:" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="392" usesdiagramusefillcolour="1" x="86" linecolour="none" y="717" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="176" text="File/directory is existing and readable. File is not empty." font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="115" activityname="analyze results" usesdiagramusefillcolour="1" x="351" linecolour="none" y="579" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="274" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+    </widgets>
+    <messages/>
+    <associations>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="5" widgetaid="4" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="404" starty="85" />
+       <endpoint endx="404" endy="118" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="8" widgetaid="6" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="397" starty="193" />
+       <endpoint endx="326" endy="192" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="6" widgetaid="5" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="404" starty="149" />
+       <endpoint endx="407" endy="183" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="11" widgetaid="6" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="407" starty="203" />
+       <endpoint endx="407" endy="248" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="15" widgetaid="11" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="407" starty="279" />
+       <endpoint endx="410" endy="315" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="20" widgetaid="15" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="400" starty="325" />
+       <endpoint endx="325" endy="325" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="129" widgetaid="15" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="410" starty="335" />
+       <endpoint endx="410" endy="360" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="133" widgetaid="129" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="430" starty="362" />
+       <endpoint endx="540" endy="363" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="137" widgetaid="133" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="574" starty="379" />
+       <endpoint endx="575" endy="434" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="138" widgetaid="137" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="575" starty="454" />
+       <endpoint endx="575" endy="499" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="141" widgetaid="129" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="410" starty="364" />
+       <endpoint endx="411" endy="429" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="141" widgetaid="137" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="565" starty="444" />
+       <endpoint endx="462" endy="444" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="142" widgetaid="141" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="411" starty="460" />
+       <endpoint endx="412" endy="535" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="143" widgetaid="142" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="402" starty="545" />
+       <endpoint endx="314" endy="545" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="149" widgetaid="142" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="422" starty="545" />
+       <endpoint endx="647" endy="546" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="38" widgetaid="149" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="713" starty="562" />
+       <endpoint endx="715" endy="580" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="274" widgetaid="38" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="695" starty="595" />
+       <endpoint endx="466" endy="594" />
+      </linepath>
+     </assocwidget>
+    </associations>
+   </diagram>
+   <diagram snapgrid="0" showattsig="1" fillcolor="#ffffc0" linewidth="0" zoom="100" showgrid="0" showopsig="1" usefillcolor="1" snapx="10" canvaswidth="1006" snapy="10" showatts="1" xmi.id="42" documentation="" type="405" showops="1" showpackage="0" name="[act]run" localid="900000" showstereotype="0" showscope="1" snapcsgrid="0" font="helvetica,12,-1,0,50,0,0,0,0,0" linecolor="#ff0000" canvasheight="812" >
+    <widgets>
+     <activitywidget usesdiagramfillcolour="0" width="152" activityname="check if file/directory" usesdiagramusefillcolour="0" x="402" linecolour="#ff0000" y="168" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="158" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="273" usesdiagramusefillcolour="1" x="16" linecolour="none" y="363" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="174" text="See: [act] scan directory [act] scan file" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="68" activityname="scan file" usesdiagramusefillcolour="0" x="348" linecolour="#ff0000" y="280" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="266" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="108" activityname="scan directory" usesdiagramusefillcolour="0" x="506" linecolour="#ff0000" y="282" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="267" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="468" linecolour="none" y="235" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="268" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="28" usesdiagramusefillcolour="1" x="388" linecolour="none" y="245" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="269" text="file" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="68" usesdiagramusefillcolour="1" x="528" linecolour="none" y="239" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="270" text="directory" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <boxwidget usesdiagramfillcolour="1" width="434" usesdiagramusefillcolour="1" x="196" linecolour="none" y="70" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="289" usefillcolor="1" isinstance="0" xmi.id="271" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="175" usesdiagramusefillcolour="1" x="199" linecolour="none" y="96" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="272" text="Security_Scanner::run()" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="140" usesdiagramusefillcolour="1" x="199" linecolour="none" y="74" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="273" text="fs_scan_class.php" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+    </widgets>
+    <messages/>
+    <associations>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="268" widgetaid="158" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="478" starty="199" />
+       <endpoint endx="478" endy="235" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="266" widgetaid="268" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="468" starty="245" />
+       <endpoint endx="382" endy="280" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="267" widgetaid="268" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="488" starty="245" />
+       <endpoint endx="560" endy="282" />
+      </linepath>
+     </assocwidget>
+    </associations>
+   </diagram>
+   <diagram snapgrid="0" showattsig="1" fillcolor="#ffffc0" linewidth="0" zoom="100" showgrid="0" showopsig="1" usefillcolor="1" snapx="10" canvaswidth="1006" snapy="10" showatts="1" xmi.id="44" documentation="" type="405" showops="1" showpackage="0" name="[act]scan_directory" localid="900000" showstereotype="0" showscope="1" snapcsgrid="0" font="helvetica,12,-1,0,50,0,0,0,0,0" linecolor="#ff0000" canvasheight="812" >
+    <widgets>
+     <floatingtext usesdiagramfillcolour="1" width="25" usesdiagramusefillcolour="1" x="336" linecolour="none" y="396" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="202" text="ok" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="108" activityname="scan directory" usesdiagramusefillcolour="1" x="371" linecolour="none" y="68" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="211" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="96" activityname="if accessible" usesdiagramusefillcolour="0" x="374" linecolour="#ff0000" y="120" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="212" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="415" linecolour="none" y="171" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="213" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="26" usesdiagramusefillcolour="1" x="525" linecolour="none" y="153" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="215" text="no" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="168" activityname="add to inaccessible list" usesdiagramusefillcolour="0" x="560" linecolour="#ff0000" y="167" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="216" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="157" activityname="check black/white list" usesdiagramusefillcolour="0" x="347" linecolour="#ff0000" y="224" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="219" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="224" usesdiagramusefillcolour="1" x="170" linecolour="none" y="201" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="220" text="if file/directory is to be scanned" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="324" linecolour="none" y="365" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="221" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="148" activityname="check file extension" usesdiagramusefillcolour="1" x="259" linecolour="none" y="309" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="222" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="124" usesdiagramusefillcolour="1" x="132" linecolour="none" y="312" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="223" text="defined in config" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="173" activityname="add for subdirectory list" usesdiagramusefillcolour="0" x="479" linecolour="#ff0000" y="310" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="225" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="68" usesdiagramusefillcolour="1" x="534" linecolour="none" y="281" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="226" text="directory" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="416" linecolour="none" y="272" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="227" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="28" usesdiagramusefillcolour="1" x="337" linecolour="none" y="276" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="228" text="file" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="152" activityname="add file for scanning" usesdiagramusefillcolour="0" x="258" linecolour="#ff0000" y="426" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="229" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="40" activityname="" usesdiagramusefillcolour="1" x="428" linecolour="none" y="475" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="4" usefillcolor="1" isinstance="0" xmi.id="230" documentation="" activitytype="4" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="131" activityname="run search on file" usesdiagramusefillcolour="1" x="383" linecolour="none" y="502" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="231" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="750" linecolour="none" y="72" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="234" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="140" usesdiagramusefillcolour="1" x="115" linecolour="none" y="49" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="240" text="fs_scan_class.php" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="754" linecolour="none" y="506" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="241" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <boxwidget usesdiagramfillcolour="1" width="678" usesdiagramusefillcolour="1" x="109" linecolour="none" y="46" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="501" usefillcolor="1" isinstance="0" xmi.id="242" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="249" usesdiagramusefillcolour="1" x="113" linecolour="none" y="71" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="244" text="Security_Scanner::scanDirectory()" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="32" usesdiagramusefillcolour="1" x="428" linecolour="none" y="196" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="251" text="yes" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+    </widgets>
+    <messages/>
+    <associations>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="212" widgetaid="211" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="425" starty="99" />
+       <endpoint endx="422" endy="120" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="213" widgetaid="212" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="422" starty="151" />
+       <endpoint endx="425" endy="171" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="216" widgetaid="213" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="435" starty="181" />
+       <endpoint endx="560" endy="182" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="219" widgetaid="213" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="425" starty="191" />
+       <endpoint endx="425" endy="224" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="227" widgetaid="219" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="425" starty="255" />
+       <endpoint endx="426" endy="272" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="222" widgetaid="227" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="416" starty="282" />
+       <endpoint endx="333" endy="309" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="225" widgetaid="227" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="436" starty="282" />
+       <endpoint endx="565" endy="310" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="221" widgetaid="222" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="333" starty="340" />
+       <endpoint endx="334" endy="365" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="229" widgetaid="221" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="334" starty="385" />
+       <endpoint endx="334" endy="426" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="230" widgetaid="229" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="334" starty="457" />
+       <endpoint endx="448" endy="475" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="230" widgetaid="225" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="565" starty="341" />
+       <endpoint endx="448" endy="475" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="231" widgetaid="230" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="448" starty="479" />
+       <endpoint endx="448" endy="502" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="211" widgetaid="234" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="750" starty="82" />
+       <endpoint endx="479" endy="83" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="241" widgetaid="231" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="514" starty="517" />
+       <endpoint endx="754" endy="516" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="234" widgetaid="241" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="764" starty="506" />
+       <endpoint endx="760" endy="92" />
+      </linepath>
+     </assocwidget>
+    </associations>
+   </diagram>
+   <diagram snapgrid="0" showattsig="1" fillcolor="#ffffc0" linewidth="0" zoom="100" showgrid="0" showopsig="1" usefillcolor="1" snapx="10" canvaswidth="1006" snapy="10" showatts="1" xmi.id="66" documentation="" type="405" showops="1" showpackage="0" name="[act]scan_file" localid="900000" showstereotype="0" showscope="1" snapcsgrid="0" font="helvetica,12,-1,0,50,0,0,0,0,0" linecolor="#ff0000" canvasheight="812" >
+    <widgets>
+     <floatingtext usesdiagramfillcolour="1" width="93" usesdiagramusefillcolour="1" x="15" linecolour="none" y="542" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="106" text="search label" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="187" usesdiagramusefillcolour="1" x="15" linecolour="none" y="583" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="107" text="search results->serialized" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="371" usesdiagramusefillcolour="1" x="15" linecolour="none" y="602" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="108" text="directories/files not accessible or empty -> serialized" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="144" usesdiagramusefillcolour="1" x="15" linecolour="none" y="625" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="109" text="date/time of search" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="92" usesdiagramusefillcolour="1" x="15" linecolour="none" y="562" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="110" text="search path" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="301" usesdiagramusefillcolour="1" x="15" linecolour="none" y="648" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="111" text="white/black list for this search -> serialized" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="96" activityname="if accessible" usesdiagramusefillcolour="0" x="416" linecolour="#ff0000" y="108" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="247" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="454" linecolour="none" y="159" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="248" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="168" activityname="add to inaccessible list" usesdiagramusefillcolour="0" x="590" linecolour="#ff0000" y="154" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="249" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="26" usesdiagramusefillcolour="1" x="540" linecolour="none" y="146" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="250" text="no" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="68" activityname="is empty" usesdiagramusefillcolour="0" x="430" linecolour="#ff0000" y="210" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="252" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="454" linecolour="none" y="263" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="253" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="125" activityname="add to empty list" usesdiagramusefillcolour="0" x="599" linecolour="#ff0000" y="259" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="254" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="32" usesdiagramusefillcolour="1" x="546" linecolour="none" y="246" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="255" text="yes" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="26" usesdiagramusefillcolour="1" x="425" linecolour="none" y="275" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="256" text="no" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="32" usesdiagramusefillcolour="1" x="474" linecolour="none" y="185" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="257" text="yes" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="96" activityname="keep results" usesdiagramusefillcolour="0" x="418" linecolour="#ff0000" y="433" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="258" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="76" usesdiagramusefillcolour="1" x="466" linecolour="none" y="383" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="260" text="if maches" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="144" activityname="search for patterns" usesdiagramusefillcolour="1" x="392" linecolour="none" y="319" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="263" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="196" usesdiagramusefillcolour="1" x="15" linecolour="none" y="509" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="265" text="Results as going in the DB" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="249" usesdiagramusefillcolour="1" x="188" linecolour="none" y="82" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="277" text="Security_Scanner::scanDirectory()" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="140" usesdiagramusefillcolour="1" x="188" linecolour="none" y="60" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="278" text="fs_scan_class.php" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <boxwidget usesdiagramfillcolour="1" width="599" usesdiagramusefillcolour="1" x="183" linecolour="none" y="55" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="433" usefillcolor="1" isinstance="0" xmi.id="280" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+    </widgets>
+    <messages/>
+    <associations>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="248" widgetaid="247" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="464" starty="139" />
+       <endpoint endx="464" endy="159" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="249" widgetaid="248" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="474" starty="169" />
+       <endpoint endx="590" endy="169" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="252" widgetaid="248" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="464" starty="179" />
+       <endpoint endx="464" endy="210" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="253" widgetaid="252" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="464" starty="241" />
+       <endpoint endx="464" endy="263" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="254" widgetaid="253" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="474" starty="273" />
+       <endpoint endx="599" endy="274" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="263" widgetaid="253" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="464" starty="283" />
+       <endpoint endx="464" endy="319" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="258" widgetaid="263" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="464" starty="350" />
+       <endpoint endx="466" endy="433" />
+      </linepath>
+     </assocwidget>
+    </associations>
+   </diagram>
+   <diagram snapgrid="0" showattsig="1" fillcolor="#ffffc0" linewidth="0" zoom="100" showgrid="0" showopsig="1" usefillcolor="1" snapx="10" canvaswidth="1006" snapy="10" showatts="1" xmi.id="168" documentation="" type="405" showops="1" showpackage="0" name="[act]analyze_results" localid="900000" showstereotype="0" showscope="1" snapcsgrid="0" font="helvetica,12,-1,0,50,0,0,0,0,0" linecolor="#ff0000" canvasheight="812" >
+    <widgets>
+     <activitywidget usesdiagramfillcolour="1" width="103" activityname="check results" usesdiagramusefillcolour="1" x="362" linecolour="none" y="121" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="31" usefillcolor="1" isinstance="0" xmi.id="281" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="237" linecolour="none" y="253" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="282" documentation="" activitytype="2" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="250" usesdiagramusefillcolour="1" x="131" linecolour="none" y="170" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="283" text="no results. everything is accessible" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="642" linecolour="none" y="326" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="286" documentation="" activitytype="2" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="20" activityname="" usesdiagramusefillcolour="1" x="401" linecolour="none" y="177" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="20" usefillcolor="1" isinstance="0" xmi.id="287" documentation="" activitytype="3" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="395" usesdiagramusefillcolour="1" x="455" linecolour="none" y="175" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="288" text="no results. there are inaccessible,empty files/directories" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="367" activityname="display inaccessible files/directories and empty files" usesdiagramusefillcolour="0" x="464" linecolour="#ff0000" y="239" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="289" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="0" width="137" activityname="save results in DB" usesdiagramusefillcolour="0" x="343" linecolour="#ff0000" y="321" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="0" fillcolour="#ffffc0" height="31" usefillcolor="1" isinstance="0" xmi.id="290" documentation="" activitytype="1" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <activitywidget usesdiagramfillcolour="1" width="10" activityname="" usesdiagramusefillcolour="1" x="406" linecolour="none" y="394" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="10" usefillcolor="1" isinstance="0" xmi.id="291" documentation="" activitytype="2" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="42" usesdiagramusefillcolour="1" x="21" linecolour="none" y="19" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="292" text="END" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <boxwidget usesdiagramfillcolour="1" width="736" usesdiagramusefillcolour="1" x="128" linecolour="none" y="90" linewidth="none" usesdiagramlinewidth="1" usesdiagramlinecolour="1" fillcolour="none" height="360" usefillcolor="1" isinstance="0" xmi.id="293" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+     <floatingtext usesdiagramfillcolour="1" width="136" usesdiagramusefillcolour="1" x="128" linecolour="none" y="88" linewidth="none" usesdiagramlinewidth="1" posttext="" usesdiagramlinecolour="1" role="700" fillcolour="none" height="25" usefillcolor="1" pretext="" isinstance="0" xmi.id="294" text="security_scan.php" font="helvetica,12,-1,0,50,0,0,0,0,0" />
+    </widgets>
+    <messages/>
+    <associations>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="287" widgetaid="281" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="413" starty="152" />
+       <endpoint endx="411" endy="177" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="282" widgetaid="287" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="401" starty="187" />
+       <endpoint endx="242" endy="258" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="289" widgetaid="287" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="421" starty="187" />
+       <endpoint endx="647" endy="239" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="286" widgetaid="289" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="647" starty="270" />
+       <endpoint endx="647" endy="331" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="290" widgetaid="287" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="411" starty="197" />
+       <endpoint endx="411" endy="321" />
+      </linepath>
+     </assocwidget>
+     <assocwidget totalcounta="2" indexa="1" visibilityB="200" totalcountb="2" indexb="1" widgetbid="291" widgetaid="290" roleBdoc="" documentation="" roleAdoc="" type="515" changeabilityA="900" changeabilityB="900" visibilityA="200" >
+      <linepath>
+       <startpoint startx="411" starty="352" />
+       <endpoint endx="411" endy="399" />
+      </linepath>
+     </assocwidget>
+    </associations>
+   </diagram>
+  </diagrams>
+  <listview>
+   <listitem open="1" type="800" label="Views" >
+    <listitem open="1" type="801" label="Logical View" >
+     <listitem open="0" type="830" label="Datatypes" />
+    </listitem>
+    <listitem open="1" type="802" label="Use Case View" />
+    <listitem open="1" type="821" label="Component View" />
+    <listitem open="1" type="827" label="Deployment View" />
+    <listitem open="1" type="836" label="Entity Relationship Model" />
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="SQL" />
+  </codegeneration>
+ </XMI.extensions>
+</XMI>

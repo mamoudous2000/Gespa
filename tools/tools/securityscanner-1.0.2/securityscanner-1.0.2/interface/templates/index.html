@@ -1,0 +1,57 @@
+{include file="header.html"}
+
+{if isset($result)}
+    <table border="0" cellpadding="0" cellspacing="0" width="95%" align="center" bgcolor="#666666"><tr><td>
+        <table border="0" cellpadding="2" cellspacing="2" width="100%" align="center">
+            <tr>
+                <td bgcolor="#666666" class="tdlabel"><strong>Search label&#058; {$label|escape:'htmlall'}</strong></td>
+                <td bgcolor="#666666" class="tdlabel"><strong>Search made on&#058; {$ts|date_format:"%A, %B %e, %H:%M:%S"}</strong></td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#ffffff"><p>Search path: {$search_path|escape:'htmlall'}</p></td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="#ffffff"><p>Results found: {$count_result}</p></td>
+            </tr>
+            <tr><td colspan="2" bgcolor="#ffffff">{$links.all}</td></tr>
+            <tr><td colspan="2" bgcolor="#ffffff"><a href="index.php">Back...</a></td></tr>
+            <tr><td colspan="2" bgcolor="#ffffff"><span style="color:red">NOTE</span>:&#160;Links in Result column are not usable yet. They point the file path to check problem yourself. See TODO file for more details.</td></tr>
+        </table>
+    </td></tr></table>
+    <br />
+    <table border="0" cellpadding="0" cellspacing="0" width="95%" align="center" bgcolor="#666666"><tr><td>
+        <table border="0" cellpadding="2" cellspacing="2" width="100%" align="center">
+            <tr>
+                <th bgcolor="#666666" class="tdlabel">Result #</th>
+                <th bgcolor="#666666" class="tdlabel">Line #</th>
+                <th bgcolor="#666666" class="tdlabel">Line Contents <br /><span style="color:red">Problem description</span></th>
+            </tr>
+            {foreach from=$result item=single_result_array key=line}
+            <tr bgcolor="{cycle values="#D2DCDC,#EEF2F2"}">
+                    <td><a onclick="return false;" target="_blank" href="file:/{$single_result_array.filePath}">{$line+1}</a></td>
+                <td>{$single_result_array.lineNumber}</td>
+                <td>{$single_result_array.lineContents|escape:'htmlall'}</p><p style="color:red">{$single_result_array.problemDescription|escape:'htmlall'}</p></td>
+            </tr>
+            {/foreach}
+        </table>
+     </td></tr></table>
+    {include file="inaccessible.html"}
+{else}
+    <table border="0" cellpadding="5" cellspacing="0" width="95%" align="center">
+        <tr><td>
+        <br />
+    Select a result set to examin. Ordered by date.<br /><br />
+    &#060;Label&#062;&#060;SearchPath&#062;&#060;Date searched&#062;<br />
+
+            <form method="get" action="" style="margin:0px">
+                <select name="id">
+                {foreach from=$scanned item=entry}
+                        <option value="{$entry.id}">&#060;{$entry.search_label|escape:'htmlall'}&#062;&#060;{$entry.search_path|escape:'htmlall'}&#062;&#060;{$entry.ts|date_format:"%A, %B %e, %H:%M:%S"}&#062;</option>
+                {/foreach}
+                </select>
+            <input type="submit" value="View Results" />
+            </form>
+        </td></tr>
+    </table>
+{/if}
+{include file="footer.html"}

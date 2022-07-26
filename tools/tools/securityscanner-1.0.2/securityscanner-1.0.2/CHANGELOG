@@ -1,0 +1,14 @@
+-------------------------------
+PHP Security Scanner CHANGE LOG
+-------------------------------
+
+1.0.0 => 1.0.1
+* FIXED Some spelling mistakes
+* NEW FEATURE: Security update. See USAGE file for more information
+* RENAME bin/fs_scan_class.php to bin/security_scanner_class.php
+* RENAME both config files to config.php.sample
+
+1.0.1 => 1.0.2
+* NEW: included all 3rdParty libraries necessary for the application.
+       overwrites includepath so it uses own libraries only.
+* FIXED: Stores full path of search directory.

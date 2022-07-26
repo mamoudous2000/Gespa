@@ -1,0 +1,33 @@
+---------------------------------------------------------------------------------------
+PHP Security Scanner - a php based vulnarability tracking tool
+---------------------------------------------------------------------------------------
+    # This program is distributed under the terms and conditions of the GPL
+    # See the README and LICENSE files for details
+
+    # --------------------------------------------------------
+    # $Id: config_inc.php.sample,v 1.16 2005/04/29 13:24:10 vboctor Exp $
+    # --------------------------------------------------------
+
+    # This file describe the future of this project as I see it.
+
+
+SOON:
+    0. Improve DB design so that no need of serializing data.
+    1. Strip all comments from file before scanning. Should improve performance and results.
+    2. Write a secure way to link interface results page to the corresponding file. Seeing the
+        source of the file via a link. Now it just gives the file path for the user
+        to check manually.
+
+LATER:
+
+    0. Parse the files with possible vulnarabilities so we can highlight problematic
+        variables, sections etc. Search for undefined variables etc.
+    1. Remove the need of modifying the config.php every time we need different
+        filter on files/directories to scan.
+    2. Package php shell script, class file and config file in one. Possibly using .phar files.
+        for more information on this visit http://pear.php.net/package/PHP_Archive
+
+Conceptual:
+
+    Have to think of a way to use the php parser(token functions) for the whole scanning. This will
+    increase performance and accuracy significantly.

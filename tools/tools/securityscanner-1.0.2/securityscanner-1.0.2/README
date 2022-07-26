@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+PHP Security Scanner - a php based vulnarability searching tool
+-------------------------------------------------------------------------------
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+-------------------------------------------------------------------------------
+Important Files:
+
+INSTALL                     		- Installation instructions
+USAGE                       		- Sample usage file.
+3rdPartyLib/                  		- Third party libs used in the project
+UML/                        		- Diagrams showing the way the tool works.
+UPGRADING                   		- Upgrade instructions
+LICENSE                     		- GNU General Public License
+CREDITS                     		- List of contributors
+bin/config.php.sample              	- PHP shell script configuration file - sample
+interface/lib/config.php.sample    	- Interface configuration file - sample
+db_generate.sql             		- SQL table statements
+
+
+
+-------------------------------------------------------------------------------
+
+
+PHP Security Scanner grew out of my need for better code security. I feel
+that it is a very good idea to have some kind of a tool that could be used
+on regular basis...to check on what might be wrong with your code. Well, this
+sounds like an ultimate tool but it appears this is not an easy thing to do.
+
+The task of doing such a tool is very demanding for one main reason - security
+is a process not a state. So, in order this tool to be of any use it should be
+constantly updated with latest security problems out there...not easy to follow
+by yourself, believe me. Actually, that is one of the reasons I decided to share my
+thoughts open source. I believe that the more people out there are interested in the
+idea the better chances this becomes useful tool.
+
+PHP Security Scanner is initially designed to have two separate "modules".
+One is the executable php shell script that is supposed to scan through php source
+code for predefined patterns. And the other is a web interface used to display the
+results from the search. The idea of an executable php shell script is to have the
+script executed anywhere you want. Of course you'll need CLI PHP since its a php
+script...but on the other hand it is somehow more secure not exposing it to the web.
+
+I've tried to do this tool as secure as possible...but I am by no means a
+php guru...so, if you're going to use this try to use it in a semi-private
+area until this package has been looked through a few times.
+
+I'd appreciate an email letting me know if you find this program useful.
+I won't publish any information without permission. I'd just like a feedback
+and knowing I'm helping people will only motivate me more.
+
+Also, let me know if you see any ways I can improve my code or design.
+Insights into better ways to implement functionality and features will
+only help out everyone using the package.
+
+-------------------------------------------------------------------------------

@@ -1,0 +1,87 @@
+################################################################################
+#  $Id: RELEASE_NOTES 28218 2011-01-04 10:36:04Z enugroho $
+#  
+#  Copyright(c) 2004-2011, Ezra Nugroho. All Rights Reserved.
+#  Licensed under the Open Source License version 2.1
+#  (See http://www.spikesource.com/license.html)
+################################################################################
+
+                        Spike phpSecAudit Release Notes
+                        ===============================
+
+SVN Revision Changes - So Far - askumar
+------------
+
+ Change Log: 
+ 
+ 1. PHPCheckstyle's HTML Outputting methods have been appended, and 
+    command line output has been removed, leaving either text file or 
+    html file output.
+
+ 2. Output Directory and Format options provided to command line execution.
+
+ 3. All directory references have been made relative to PHPSECAUDIT_HOME_DIR,
+    so that other locations may execute classes.
+  
+ 4. The Reporter class carries all the log... functions. The TextReporter
+    and XmlReporter classes simply extend Reporter and decide how to 
+    output the information.
+
+ Known Issues:
+
+ 1. Some text output functionality lost in html, such as severity and context.
+    This should be easily resolvable, as the Reporting classes have been 
+    better organized.
+
+Version 0.23
+------------
+
+ This is the second release of Spike phpSecAudit.
+
+ Change Log:
+
+ 1. Modified  to be PHP 4 friendly.
+
+ 2. Added a few functions to the knowledge-base: extract, shell_exec, pcntl_exec, exec. 
+
+ 3. Slightly improved the organization of the knowledge-base file (vuln_db.xml).
+
+
+ Known issues:
+
+ 1. [Unverified], _getAllPhpFiles function may miss a few.
+
+ 2. Tokenizer needs to be able to differentiate between a native function
+    call and class method call of the same name, i.e. mail() and $class->mail().
+
+
+
+Version 0.19
+------------
+
+ This is the very first release of Spike phpSecAudit. It is an alpha release.
+
+ Known issues:
+ 
+ 1. The knowledge-base needs to be refreshed.
+ 
+ 2. The project needs a better reporting.
+ 
+ 
+
+ We are indebted to several projects and people whose contributions have
+ tremendously helped this effort. They are
+ 
+ 1. RATS project.
+    http://www.securesoftware.com/resources/download_rats.html
+    They preceded us in creating a PHP static analysis tool and, hence,
+    tremendously helped educate us in this subject. We follow their
+    vulnerability db semantics. Currently we use their PHP vulnerability
+    database, although we plan to aggressively improve upon it.
+    
+ 2. Hari Kodungallur and the Spike PHPCheckstyle project.
+    http://developer.spikesource.com/projects/phpcheckstyle
+    His TokenUtils.php is adopted to this project. Without his utility, this
+    project would have taken much much longer to write.
+    
+ 

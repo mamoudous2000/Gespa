@@ -1,0 +1,153 @@
+---------------------------------------------------------------------------------------
+PHP Security Scanner - a php based vulnarability tracking tool
+---------------------------------------------------------------------------------------
+
+INSTALLATION
+
+The following details the basic steps for installation on any system.
+
+Barring complications, it should take you about 10-20 minutes to install,
+configure, and be using PHP Security Scanner.
+
+# --- Requirements ----------
+
+* MySQL 4.0.24 (tested on 4.0.24 but should be ok with others)
+* Tested on PHP 4.3.11, PHP 5.2.1
+* a webserver and php compilied as CLI (this is usually the case when installed by default).
+*
+*   This tool is know to work on linux but should be ok on Windows too
+*
+*    Classes/libraries  -> see #useful links# section at the bottom for more information
+*   [included since 1.0.2]    Smarty
+*   [included since 1.0.2]    PEAR packages:DB, Pager
+
+# --- Summary ---------------
+
+1. Tranfer files
+2. Uncompress files
+3. Set proper permissions
+4. Generate database tables
+5. Edit configuration file
+6. Use ;)
+
+******************************************************************************
+
+1. First, transfer the file to your webserver using whatever method you like
+best (ftp, scp, etc).
+
+2. Next, untar/gunzip it to the directory that you want.
+The usual command is (1 step):
+
+    tar zxvf <filename.tar.gz>
+
+OR  (2 steps):
+
+    gunzip <filename.tar.gz>
+    tar xvf <filename.tar>
+
+At this point you may want to rename the directory to something simpler like
+'sec_scanner'.  You will use the mv command to rename a directory.
+
+mv <directoryname> sec_scanner
+
+If you are upgrading see the UPGRADING document.
+
+3. Set proper permissions.
+3.1 bin/security_scan.php and bin/security_update.php
+security_scan.php assumes "php" executable is located in /usr/bin/php (as is by default intallation of php).
+
+You could either set the executable flag
+
+e.g to set executable flag
+    chmod 755 bin/security_scan.php
+
+OR
+
+You could use
+/usr/bin/php <filename>
+everytime.
+
+Make sure the security_scan.php and bin/security_update are out of the webtree and not accessible worldwide.
+
+3.2 The interface
+
+The web server should have write permissions to interface/templates_c
+This directory is used by Smarty for caching.
+
+4. Next we will create the necessary database tables.
+Make sure you have created the database ahead of time.  You should know your mysql
+username and password as well.
+
+Go into the sql directory and run the following command:
+
+mysql -u<username> -p<password> <databasename> < db_generate.sql
+
+You could also cut and paste the sql statements from db_generate.sql into a
+package like phpMyAdmin or into your terminal window.
+
+e.g. if your username is bob, password is mypass, database name is bugtracker:
+
+mysql -ubob -pmypass bugtracker < db_generate.sql
+
+You may require an additional host parameter if your SQL server is on another
+machine.
+
+mysql -h sqlserver -ubob -pmypass bugtracker < db_generate.sql
+
+5. The next part involves configuring the installation to work with your
+specific setup.
+
+Since the project is separated in two parts (interface and bin) there are two
+configuration files. DB connnections should use the same database. So why do we
+need two configuration files? The idea is to use the php shell script on any machine
+you like so it is portable. Just point to which DB it should dump the results.
+
+Configuration settings:
+5.1 locate bin/config.php.sample file and rename/copy it to config.php.
+5.1.1 DB connection settings.
+This is pretty straight forward. You should specify username, password and host
+of the connection.
+
+5.1.2 PHP_EXTENSION
+Here you could define which extensions you're php installation is using.
+By default this would be .php files but you could define more that than.
+For example, if you want to scan .php3 and .php and .php4 files you should put
+php3 php and php4 in the configuration file.
+By default configuration file is set to scan .php files only. You could uncomment/add
+more settings if you'd like. There's more info in the config file itself.
+
+5.1.3 Black/white list filters.
+Now, this is the tricky part :) But don't worry. Most of the time you won't need this
+feature. And it is quite basic right now. The instructions are given in the config file
+as this settings could change...if you want to change filters of course.
+
+5.2 locate interface/lib/config.php.sample file and rename/copy it to config.php.
+5.2.1 DB connection settings(username, password, host etc.).
+The same as 5.1.1
+
+6. Use.
+That should be it.  You're off and running.  For sample usage of the tool you could
+read USAGE file.
+
+-------------------------------------------------------------------------------
+### Upgrading ###
+-------------------------------------------------------------------------------
+
+See the files: UPGRADING
+
+-------------------------------------------------------------------------------
+### Troubleshooting ###
+-------------------------------------------------------------------------------
+
+See TROUBLESHOOTING
+
+-------------------------------------------------------------------------------
+### Useful links ###
+-------------------------------------------------------------------------------
+
+http://www.php.net/        -  excellent documentation.
+http://www.phpmyadmin.net/ -  an excellent web front end to mysql.
+http://www.mysql.com/      -  good documentation.
+http://www.apache.org/     -  you should be able to find what you need.
+http://smarty.php.net/     -  smarty template engine.
+http://pear.php.net/       -  PHP Extension and Application repository

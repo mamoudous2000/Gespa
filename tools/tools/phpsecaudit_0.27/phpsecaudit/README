@@ -1,0 +1,19 @@
+1. Usage
+---------
+
+  * To install, unzip Spike phpSecAudit package.
+   
+   > unzip phpSecAudit.zip
+
+  * Change directory to your php repository.
+
+    > cd /path/to/code/to/audit
+
+  * Execute the run.php, passing the file name or directory to audit.
+
+    > php /path/to/spike_phpSecAudit/run.php test_file.php
+    
+    or 
+
+    > php /path/to/spike_phpSecAudit/run.php dir_name
+

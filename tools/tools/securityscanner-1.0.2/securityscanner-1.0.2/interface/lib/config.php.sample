@@ -1,0 +1,61 @@
+<?php
+error_reporting(E_ALL);
+define("THIRD_PARTY_LIB",realpath(dirname(__FILE__). "/../../3rdPartyLib"));
+set_include_path("." . PATH_SEPARATOR . THIRD_PARTY_LIB);
+
+
+    # PHP Security Scanner
+    # This program is distributed under the terms and conditions of the GPL
+    # See the README and LICENSE files for details
+
+    # This file contains the essential files that you MUST
+    # configure to your specific settings.
+
+
+###########################################################################
+# CONFIGURATION VARIABLES
+###########################################################################
+
+//See INSTALL file for reference of items etc.
+//5.2.1 DB connection settings.
+
+$hostname      = "localhost";
+$db_username   = "root";
+$db_password   = "";
+$database_name = "DB_you_created";
+
+    /* DO NOT EDIT BELOW THIS LINE *//* DO NOT EDIT BELOW THIS LINE *//* DO NOT EDIT BELOW THIS LINE */
+
+include_once('DB.php');
+//db connection
+$dsn = array(
+    'phptype'  => 'mysql',
+    'username' => $db_username,
+    'password' => $db_password,
+    'hostspec' => $hostname,
+    'database' => $database_name,
+);
+
+$dbh =& DB::connect($dsn);
+
+if (DB::isError($dbh)){
+    die ($dbh->getDebugInfo());
+}
+$dbh->setFetchMode(DB_FETCHMODE_ASSOC);
+
+$result_table = 'result';
+
+//smarty
+require_once 'Smarty/libs/Smarty.class.php';
+$smarty = new Smarty;
+$smarty->compile_check = true;
+
+///dbg
+//$smarty->debugging = true;
+
+
+///functions
+function http_get_param ($param, $default = "") {
+        return isset($_GET[$param])? $_GET[$param] : $default;
+}
+?>

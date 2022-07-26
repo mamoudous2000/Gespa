@@ -1,0 +1,106 @@
+
+
+
+Analyzing file: ./reporter/XmlReporter.php . . . . . .
+
+There are no errors that I can find in file: ./reporter/XmlReporter.php
+
+
+
+
+Analyzing file: ./reporter/Reporter.php . . . . . .
+
+The followings are function calls that need input sanitization:
+
+I. 1 
+./reporter/Reporter.php: 67, HIGH: fopen
+Context: }
+Argument 1 to this function call should be checked to ensure that it does not come from an untrusted source without first verifying that it contains nothing dangerous.
+
+
+
+
+Analyzing file: ./reporter/TextReporter.php . . . . . .
+
+There are no errors that I can find in file: ./reporter/TextReporter.php
+
+
+
+
+Analyzing file: ./util/TokenUtils.php . . . . . .
+
+The followings are function calls that need input sanitization:
+
+I. 1 
+./util/TokenUtils.php: 81, HIGH: fopen
+Context: $contents = fread($fp, filesize($filename));
+Argument 1 to this function call should be checked to ensure that it does not come from an untrusted source without first verifying that it contains nothing dangerous.
+
+
+
+
+Analyzing file: ./util/Utility.php . . . . . .
+
+These are function calls that may introduce racecheck problem:
+
+R. 1 
+./util/Utility.php: 141, MEDIUM: is_dir
+Context: return true;
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists. For more info, visit http://www.secureprogramming.com/?action=view&feature=glossary&glossaryid=256.
+
+R. 2 
+./util/Utility.php: 146, MEDIUM: is_file
+Context: error_log("File already exists: " . $dir);
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists. For more info, visit http://www.secureprogramming.com/?action=view&feature=glossary&glossaryid=256.
+
+R. 3 
+./util/Utility.php: 188, MEDIUM: is_dir
+Context: $this->wipeDir($fullPath, true);
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists. For more info, visit http://www.secureprogramming.com/?action=view&feature=glossary&glossaryid=256.
+
+R. 4 
+./util/Utility.php: 215, MEDIUM: is_dir
+Context: $files[] = $src;
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists. For more info, visit http://www.secureprogramming.com/?action=view&feature=glossary&glossaryid=256.
+
+R. 5 
+./util/Utility.php: 226, MEDIUM: is_dir
+Context: $files = array_merge($files, $this->getAllPhpFiles($src . "/" . $file, $excludes));
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists. For more info, visit http://www.secureprogramming.com/?action=view&feature=glossary&glossaryid=256.
+
+R. 6 
+./util/Utility.php: 258, MEDIUM: is_file
+Context: return copy($source, $dest);
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists. For more info, visit http://www.secureprogramming.com/?action=view&feature=glossary&glossaryid=256.
+
+R. 7 
+./util/Utility.php: 263, MEDIUM: is_dir
+Context: mkdir($dest);
+A potential TOCTOU (Time Of Check, Time Of Use) vulnerability exists. For more info, visit http://www.secureprogramming.com/?action=view&feature=glossary&glossaryid=256.
+
+
+
+
+Analyzing file: ./Analyzer.php . . . . . .
+
+The followings are function calls that need input sanitization:
+
+I. 1 
+./Analyzer.php: 195, HIGH: fopen
+Context: fwrite($hfh, $this->_xsl->transformToXML(DOMDocument::load($xmlFile)));
+Argument 1 to this function call should be checked to ensure that it does not come from an untrusted source without first verifying that it contains nothing dangerous.
+
+
+
+
+Analyzing file: ./run.php . . . . . .
+
+There are no errors that I can find in file: ./run.php
+
+
+
+
+Analyzing file: ./xml_utils.php . . . . . .
+
+There are no errors that I can find in file: ./xml_utils.php
+

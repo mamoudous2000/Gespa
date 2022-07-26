@@ -1,0 +1,17 @@
+I have used Umbrello as UML modeller in this project.
+It is usually installed by default with KDE.
+
+You can find out more about it at:
+http://uml.sourceforge.net/index.php
+
+I have exported all diagrams in .png files so you don't have
+to install Umbrello to see them.
+
+The .xmi file is the Umbrello format.
+
+The purpose of these diagrams is to make project more clear to
+understand.
+
+
+NOTE: You will not see anything more if using umbrello to open the .xmi
+file . I have exported all diagrammes to .png files

@@ -1,0 +1,426 @@
+Array
+(
+    [__multi] => 1
+    [0] => Array
+        (
+            [NAME] => mail
+            [INFO] => Array
+                (
+                    [SEVERITY] => High
+                    [DESCRIPTION] => 
+        Arguments 1, 2, 4 and 5 of this function may be passed to an external 
+        program. (Usually sendmail). Under Windows, they will be passed to a
+        remote email server. If these values are derived from user input, make
+        sure they are properly formatted and contain no unexpected characters or
+        extra data.
+      
+                )
+
+        )
+
+    [1] => Array
+        (
+            [NAME] => getallheaders
+            [INPUT] => 
+        )
+
+    [2] => Array
+        (
+            [NAME] => bzread
+            [INPUT] => 
+        )
+
+    [3] => Array
+        (
+            [NAME] => fgets
+            [INPUT] => 
+        )
+
+    [4] => Array
+        (
+            [NAME] => fgetss
+            [INPUT] => 
+        )
+
+    [5] => Array
+        (
+            [NAME] => getenv
+            [INPUT] => 
+        )
+
+    [6] => Array
+        (
+            [NAME] => file
+            [RACEUSE] => 1
+            [INPUT] => 
+        )
+
+    [7] => Array
+        (
+            [NAME] => fscanf
+            [INPUT] => 
+        )
+
+    [8] => Array
+        (
+            [NAME] => gzfile
+            [INPUT] => 
+        )
+
+    [9] => Array
+        (
+            [NAME] => gzgetc
+            [INPUT] => 
+        )
+
+    [10] => Array
+        (
+            [NAME] => gzgets
+            [INPUT] => 
+        )
+
+    [11] => Array
+        (
+            [NAME] => gzread
+            [INPUT] => 
+        )
+
+    [12] => Array
+        (
+            [NAME] => gzgetss
+            [INPUT] => 
+        )
+
+    [13] => Array
+        (
+            [NAME] => read
+            [INPUT] => 
+        )
+
+    [14] => Array
+        (
+            [NAME] => gzopen
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+            [RACEUSE] => 1
+        )
+
+    [15] => Array
+        (
+            [NAME] => eval
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+        )
+
+    [16] => Array
+        (
+            [NAME] => highlight_file
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+        )
+
+    [17] => Array
+        (
+            [NAME] => show_source
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+        )
+
+    [18] => Array
+        (
+            [NAME] => leak
+            [INFO] => Array
+                (
+                    [SEVERITY] => Medium
+                    [DESCRIPTION] => This function literally leaks memory. Are you sure you meant to use this?
+                )
+
+        )
+
+    [19] => Array
+        (
+            [NAME] => chroot
+            [INFO] => Array
+                (
+                    [SEVERITY] => Low
+                    [DESCRIPTION] => Reminder: Do not forget to chdir() to an appropriate directory before calling chroot()
+                )
+
+        )
+
+    [20] => Array
+        (
+            [NAME] => fsockopen
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => Medium
+                )
+
+        )
+
+    [21] => Array
+        (
+            [NAME] => pfsockopen
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => Medium
+                )
+
+        )
+
+    [22] => Array
+        (
+            [NAME] => posix_getlogin
+            [INFO] => Array
+                (
+                    [DESCRIPTION] =>  The results of this call are easy to forge.
+                    [SEVERITY] => Medium
+                )
+
+        )
+
+    [23] => Array
+        (
+            [NAME] => posix_ttyname
+            [INFO] => Array
+                (
+                    [DESCRIPTION] => 
+      The results are easy for an attacker to forge, and not reliable.
+      
+                )
+
+        )
+
+    [24] => Array
+        (
+            [NAME] => system
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+        )
+
+    [25] => Array
+        (
+            [NAME] => passthru
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+        )
+
+    [26] => Array
+        (
+            [NAME] => fopen
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+            [RACEUSE] => 1
+        )
+
+    [27] => Array
+        (
+            [NAME] => bzopen
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+            [RACEUSE] => 1
+        )
+
+    [28] => Array
+        (
+            [NAME] => popen
+            [INPUTPROBLEM] => Array
+                (
+                    [ARG] => 1
+                    [SEVERITY] => High
+                )
+
+        )
+
+    [29] => Array
+        (
+            [NAME] => posix_mkfifo
+            [RACEUSE] => 1
+        )
+
+    [30] => Array
+        (
+            [NAME] => opendir
+            [RACEUSE] => 1
+        )
+
+    [31] => Array
+        (
+            [NAME] => exec
+            [RACEUSE] => 1
+        )
+
+    [32] => Array
+        (
+            [NAME] => basename
+            [RACEUSE] => 1
+        )
+
+    [33] => Array
+        (
+            [NAME] => chmod
+            [RACEUSE] => 1
+        )
+
+    [34] => Array
+        (
+            [NAME] => chown
+            [RACEUSE] => 1
+        )
+
+    [35] => Array
+        (
+            [NAME] => dirname
+            [RACEUSE] => 1
+        )
+
+    [36] => Array
+        (
+            [NAME] => link
+            [RACEUSE] => 1
+        )
+
+    [37] => Array
+        (
+            [NAME] => mkdir
+            [RACEUSE] => 1
+        )
+
+    [38] => Array
+        (
+            [NAME] => readfile
+            [RACEUSE] => 1
+            [INPUT] => 
+        )
+
+    [39] => Array
+        (
+            [NAME] => rename
+            [RACEUSE] => 1
+        )
+
+    [40] => Array
+        (
+            [NAME] => rmdir
+            [RACEUSE] => 1
+        )
+
+    [41] => Array
+        (
+            [NAME] => symlink
+            [RACEUSE] => 1
+        )
+
+    [42] => Array
+        (
+            [NAME] => unlink
+            [RACEUSE] => 1
+        )
+
+    [43] => Array
+        (
+            [NAME] => filegroup
+            [RACECHECK] => 1
+        )
+
+    [44] => Array
+        (
+            [NAME] => fileowner
+            [RACECHECK] => 1
+        )
+
+    [45] => Array
+        (
+            [NAME] => fileperms
+            [RACECHECK] => 1
+        )
+
+    [46] => Array
+        (
+            [NAME] => is_dir
+            [RACECHECK] => 1
+        )
+
+    [47] => Array
+        (
+            [NAME] => is_executable
+            [RACECHECK] => 1
+        )
+
+    [48] => Array
+        (
+            [NAME] => is_file
+            [RACECHECK] => 1
+        )
+
+    [49] => Array
+        (
+            [NAME] => is_link
+            [RACECHECK] => 1
+        )
+
+    [50] => Array
+        (
+            [NAME] => is_readable
+            [RACECHECK] => 1
+        )
+
+    [51] => Array
+        (
+            [NAME] => is_writable
+            [RACECHECK] => 1
+        )
+
+    [52] => Array
+        (
+            [NAME] => is_writeable
+            [RACECHECK] => 1
+        )
+
+    [53] => Array
+        (
+            [NAME] => stat
+            [RACECHECK] => 1
+        )
+
+    [54] => Array
+        (
+            [NAME] => lstat
+            [RACECHECK] => 1
+        )
+
+)

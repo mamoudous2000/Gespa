@@ -1,0 +1,31 @@
+----------------------------------
+PHP Security Scanner Upgrade HOWTO
+----------------------------------
+See CHANGLOG for more on what has changed.
+
+
+======================================================================
+ !!! ALWAYS BACKUP CODE, DATA, AND CONFIGS BEFORE UPGRADING !!!
+
+ This includes your PHP Security Scanner directory, and your database.
+======================================================================
+1.0.0 => 1.0.1
+
+* First way:
+* 1. Copy somewhere old bin/config.php and interface/lib/config.php so you keep
+* your settings.
+* 2. Delete both old bin and interface directories.
+* 3. Copy the new interface and bin directories where you want them.
+* 4. Copy back your config files to corresponding places.
+*
+* Second way:
+* 1. Overwrite the old bin/interface directories with the new ones.
+* You will NOT loose your config settings but will have some useless files.
+
+======================================================================
+1.0.1 => 1.0.2
+
+* 1. There is change in bin/config.php and interface/lib/config.php so you will have to adjust configs
+*  again
+* 2. There are no changes concerning database.
+* 3. After you have you have your configs as backup you can delete and put project in place again.
